@@ -13,5 +13,3 @@ To run this game on Windows, follow these steps:
 Game is started!
 
 Help with control of cars in this game is in the file CarsGame.txt
-
-[![Run on Repl.it](https://repl.it/badge/github/DarkCat09/Racing-with-Cars)](https://repl.it/github/DarkCat09/Racing-with-Cars)
