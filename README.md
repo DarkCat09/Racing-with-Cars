@@ -10,7 +10,7 @@ My game has got a few cars.
 
 **Functions**
 1. On start, you may enter secure code.
-   *Default code: default123*
+   *Default code: **default123***
    *You can change the code in file "code.conf".*
    
 2. Press the button "Play" to start game.
@@ -26,10 +26,17 @@ The 1st car is controlled by arrows.
 The 2nd car is controlled by letters
 (W-up,S-down,A-left,D-right).
 
-**Run this game**
+**Run this game in IDE**
 To run this game on Windows, follow these steps:
 - Install the application Code::Blocks 12.11
 - Open "main.cpp" in Code::Blocks
 - Click the button with the green triangle and yellow gear pattern in top panel in Code::Blocks
 
 Game is started!
+
+**Or you can Run exe-file**
+- Go to the Realese tab on GitHub
+- Download *Racing-with-cars_installer.exe*
+- Start this program
+- Follow the instructions of setup wizard to install game
+- On complete, check the *"Start game on close"* flag and click the button *"Done"*
