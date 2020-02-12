@@ -27,12 +27,12 @@ The 2nd car is controlled by letters
 (W-up,S-down,A-left,D-right).
 
 To change speed of 1st car, press on the keyboard:
-H - "speed+"
-L - "speed-"
+- H - "speed+"
+- L - "speed-"
 
 To change speed of 2nd car, press on the keyboard:
-J - "speed+"
-K - "speed-"
+- J - "speed+"
+- K - "speed-"
 
 **Run this game in IDE**
 To run this game on Windows, follow these steps:
@@ -42,7 +42,7 @@ To run this game on Windows, follow these steps:
 
 Game is started!
 
-**Or you can Run exe-file**
+**Or you can Run installer exe-file**
 - Go to the *Releases* tab on GitHub
 - Download *RacingWithCars_setup.exe*
 - Start this program
