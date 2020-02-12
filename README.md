@@ -35,7 +35,7 @@ To run this game on Windows, follow these steps:
 Game is started!
 
 **Or you can Run exe-file**
-- Go to the Realese tab on GitHub
+- Go to the *Releases* tab on GitHub
 - Download *Racing-with-cars_installer.exe*
 - Start this program
 - Follow the instructions of setup wizard to install game
