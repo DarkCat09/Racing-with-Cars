@@ -26,6 +26,14 @@ The 1st car is controlled by arrows.
 The 2nd car is controlled by letters
 (W-up,S-down,A-left,D-right).
 
+To change speed of 1st car, press on the keyboard:
+H - "speed+"
+L - "speed-"
+
+To change speed of 2nd car, press on the keyboard:
+J - "speed+"
+K - "speed-"
+
 **Run this game in IDE**
 To run this game on Windows, follow these steps:
 - Install the application Code::Blocks 12.11
@@ -36,9 +44,9 @@ Game is started!
 
 **Or you can Run exe-file**
 - Go to the *Releases* tab on GitHub
-- Download *Racing-with-cars_installer.exe*
+- Download *RacingWithCars_setup.exe*
 - Start this program
 - Follow the instructions of setup wizard to install game
-- On complete, check the *"Start game on close"* flag and click the button *"Done"*
+- On complete, check the *"Launch RacingWithCars"* flag and click the button *"Done"*
 
 Game is started!
