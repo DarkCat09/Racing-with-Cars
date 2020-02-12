@@ -125,6 +125,9 @@ int main()
 
         txDisableAutoPause();
     }
+    else {
+        cout << "Wrong code!" << endl;
+    }
 
     return 0;
 }
@@ -209,6 +212,9 @@ void gameLoop(string car1Adress, string car2Adress)
 
     if (soundInGame) {
         txPlaySound("music\\music.wav", SND_LOOP);
+    }
+    else {
+        txPlaySound(NULL);
     }
 
     int startTime = 3600 * tm->tm_hour + 60 * tm->tm_min + tm->tm_sec;
@@ -633,7 +639,7 @@ Car moveCar(Car car, bool letters_mgmt)
         }
     }
 
-    car.fuel -= 0.50;
+    car.fuel -= 0.20;
 
     return car;
 }
@@ -764,10 +770,16 @@ bool enterCode()
 
     fileWithCode.close();
 
-    cout << "Enter the code" << endl;
-    cin >> code;
+    if (!(strcmp(codeFromFile, "") == 0)) {
 
-    return (strcmp(code, codeFromFile) == 0);
+        cout << "Enter the code" << endl;
+        cin >> code;
+
+        return (strcmp(code, codeFromFile) == 0);
+    }
+    else {
+        return true;
+    }
 }
 
 void selectingCars(HDC* cars)
