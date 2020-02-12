@@ -40,3 +40,5 @@ Game is started!
 - Start this program
 - Follow the instructions of setup wizard to install game
 - On complete, check the *"Start game on close"* flag and click the button *"Done"*
+
+Game is started!
